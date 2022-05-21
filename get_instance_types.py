@@ -6,6 +6,10 @@ Usage:
 - python3 get_instance_types.py --region us-east-1 --availability_zone "*" --instance_type g3.4xlarge
 """
 
+# TODO: add param to change output to human readable vs machine readable
+# TODO: output available instance count of a given type
+
+
 import argparse
 import boto3
 
